@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="../CSS/sty.css">
 </head>
 <body>
+<link rel="stylesheet" href="../CSS/header menu.css">
+    <header class="top-header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">MyLogo</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <img src="../Image/horizontal cake.jpg"
     width="100%">
     <main>
@@ -92,4 +108,65 @@ head {
 body {
     background-color: #f3be4b;
     color: #dd1e1e;
+}
+/*syling header*/
+body, margin, padding {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk header */
+.top-header {
+    background-color: #4e4d4a; 
+    color: #f7f7f7; 
+    padding: 10px 0; 
+    position: relative; 
+    width: 100%;
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+}
+
+<!-- Mengatur header dengan css-->
+
+/* Kontainer untuk header dan menu */
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+/* Styling untuk logo */
+.logo a {
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+/* Styling untuk menu navigasi */
+.main-nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin: 0 15px; 
+}
+
+.main-nav ul li a {
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 18px;
+    transition: color 0.3s; 
+}
+
+.main-nav ul li a:hover {
+    color: #f39c12; 
 }
