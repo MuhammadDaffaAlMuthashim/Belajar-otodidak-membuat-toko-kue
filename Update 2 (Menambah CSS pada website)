@@ -97,6 +97,7 @@ h2 {
 h3 {
     color: red;
     text-aligh: center;
+    font-size: 50px;
     
 }
 head {
