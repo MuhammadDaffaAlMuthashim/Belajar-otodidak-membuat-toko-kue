@@ -96,11 +96,13 @@ h2 {
 }
 h3 {
     color: red;
+    text-aligh: center;
     
 }
 head {
     width:1000 ;
     height: 1000;
+    posisition: relative;
 
 }
 .background-div{
