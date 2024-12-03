@@ -97,8 +97,8 @@ h2 {
 h3 {
     color: red;
     text-aligh: center;
-    font-size: 50px;
-    width: 50px;
+    font-size: 100px;
+    width: 100px;
     
 }
 head {
