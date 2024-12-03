@@ -95,7 +95,7 @@ h2 {
     text-align: center;
 }
 h3 {
-    color: blue;
+    color: brown;
     text-aligh: center;
     font-size: 50px;
     width: 50px;
