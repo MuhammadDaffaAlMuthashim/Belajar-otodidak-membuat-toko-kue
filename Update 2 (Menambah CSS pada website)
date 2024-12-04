@@ -99,7 +99,7 @@ h3 {
     text-aligh: center;
     font-size: 50px;
     width: 50px;
-    
+    backgoround-color: none:
 }
 head {
     width:1000 ;
