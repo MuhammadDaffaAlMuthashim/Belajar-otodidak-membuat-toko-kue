@@ -123,3 +123,41 @@ body, margin, padding {
 .main-nav ul li a:hover {
     color: #f39c12; 
 }
+
+/* Burger Menu for Mobile */
+
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 25px;
+  height: 3px;
+  background: white;
+  margin: 3px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .burger {
+    display: flex;
+  }
+}
