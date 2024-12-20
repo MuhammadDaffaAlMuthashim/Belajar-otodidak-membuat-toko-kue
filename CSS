@@ -2,7 +2,7 @@
 body {
     background-image: url('kuentot.jpg');    
     background-size: cover;
-    background-position: absolute;
+    background-position: fixed;
 }
 h1 { 
     color: rgb(0, 0, 0);
