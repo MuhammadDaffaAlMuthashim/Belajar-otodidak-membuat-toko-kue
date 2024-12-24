@@ -1,8 +1,8 @@
-
 body {
-    background-image: url('kuentot.jpg');    
-    background-size: cover;
-    background-position: fixed;
+    background-image: url("Kue\ Ulang\ Tahun\ Sederhana.jpg"); /* Replace "your-image.jpg" with your actual image file */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image on the screen */
 }
 h1 { 
     color: rgb(0, 0, 0);
@@ -13,37 +13,82 @@ h1 {
     text-align: center;
     font-size: 50px;
 }
-#background-image{
+#background-image {
     width: 50%;
-}
 
+}
+.pa-toto-navbar {
+    margin-top: 13%;
+    color: #f7f7f7;
+    position: relative;
+}
+.Hamburger-menu {
+    width: 40px;
+    position: relative;
+    display: block;
+    margin-left: 94%;
+    margin-top: 1%;
+    margin-right: auto;
+}
+.Foto-Kopi {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    padding-right: 100%;
+    margin-left: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.head-kotak {
+    width: 100%;
+    height: 300px;
+    background-color: #111;       
+}
+.teks-utama {
+    text-shadow:100%;
+}
+.Toko-kue-pa-toto{
+    text-align: left;
+    padding-bottom: 6%;   
+}
+.a-navbar {
+    color: #f7f7f7;
+    padding: 2opx;
+    margin: 5px;
+    list-style-type: none;
+    font-size:medium;
+}
+.li-navbar:hover {
+    background-color: rgb(0, 0, 0);
+    transition: .3s ease-in-out;
+    transition-delay: 3s;
+    border-radius: 8px;
+}
+h1  {
+   position: relative;
+}
 h2 {
-    color: red;
+    color: brown;
     text-align: center;
-    Background-Colour: none;
 }
 h3 {
-    color: brown;
-    text-aligh: center;
-    font-size: 50px;
-    width: 50px;
-    backgoround-color: none:
-    position: center;
+    color: red;
+    
 }
 head {
     width:1000 ;
     height: 1000;
-    posisition: relative;
 
 }
 .background-div{
     background-image: url(horizontal\ cake.jpg);
 }
 body {
-    background-color: #f3be4b;
+    background-color: #ffece0 ;
     color: #dd1e1e;
 }
+
 /*syling header*/
+
 body, margin, padding {
     margin: 0;
     padding: 0;
@@ -51,11 +96,12 @@ body, margin, padding {
 }
 
 /* Styling untuk header */
+
 .top-header {
     background-color: #4e4d4a; 
     color: #f7f7f7; 
     padding: 10px 0; 
-    position: relative; 
+    position: fixed; 
     width: 100%;
     top: 0; 
     left: 0;
@@ -65,6 +111,7 @@ body, margin, padding {
 <!-- Mengatur header dengan css-->
 
 /* Kontainer untuk header dan menu */
+
 .container {
     display: flex;
     justify-content: space-between; 
@@ -73,27 +120,9 @@ body, margin, padding {
     margin: 0 auto; 
     padding: 0 20px; 
 }
-<-- menambah hamburger menu-->
-#background-image {
-    width: 50%;
-}
-
-.pa-toto-navbar {
-    margin-top: 13%;
-    color: #f7f7f7;
-    position: relative;
-    
-}
-
-.Hamburger-menu {
-    width: 40px;
-    position: relative;
-    display: block;
-    margin-left: 94%;
-    margin-top: 1%;
-    margin-right: auto;
 
 /* Styling untuk logo */
+
 .logo a {
     text-decoration: none; 
     color: #ffffff; 
@@ -107,6 +136,7 @@ body, margin, padding {
     margin: 0;
     padding: 0;
     display: flex;
+
 }
 
 .main-nav ul li {
@@ -119,45 +149,36 @@ body, margin, padding {
     font-size: 18px;
     transition: color 0.3s; 
 }
-
 .main-nav ul li a:hover {
     color: #f39c12; 
 }
+/* File: styles.css */
 
-/* Burger Menu for Mobile */
-
-.burger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
+/* Menghapus style default dari ul dan li */
+nav ul{
+    list-style-type: none; /* Menghilangkan bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #252525; /* Warna latar navbar */
 }
 
-.burger .line {
-  width: 25px;
-  height: 3px;
-  background: white;
-  margin: 3px 0;
+/* Style untuk setiap item di navbar */
+nav ul li {
+    float: right;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #333;
-    position: absolute;
-    top: 50px;
-    right: 20px;
-    width: 150px;
+/* Style untuk tautan di dalam navbar */
+nav ul li a {
+    display: block;
+    color: rgb(243, 243, 243);
     text-align: center;
-    border-radius: 5px;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .burger {
-    display: flex;
-  }
+    padding: 14px 20px;
+    text-decoration: none; /* Menghilangkan garis bawah */
 }
+
+/* Mengubah warna tautan ketika mouse melewati */
+nav ul li a:hover {
+    background-color: #111; /* Warna background saat hover */
+}
+
