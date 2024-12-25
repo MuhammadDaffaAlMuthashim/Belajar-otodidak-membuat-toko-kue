@@ -24,7 +24,7 @@ h1 {
 }
 .Hamburger-menu {
     width: 40px;
-    position: relative;
+    position: absolute;
     display: block;
     margin-left: 94%;
     margin-top: 1%;
