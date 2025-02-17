@@ -33,7 +33,7 @@ h1 {
 .Foto-Kopi {
     height: 100%;
     width: 50%;
-    position: absolute;
+    position: relative;
     padding-right: 100%;
     margin-left: 50%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
