@@ -133,7 +133,7 @@ body, margin, padding {
 /* Styling untuk menu navigasi */
 .main-nav ul {
     list-style-type: none; 
-    margin: 12px;
+    margin: 0;
     padding: 0;
     display: flex;
 
